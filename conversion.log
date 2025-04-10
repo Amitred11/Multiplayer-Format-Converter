@@ -1,0 +1,205 @@
+2025-04-10 14:43:01,024 - WARNING -  * Debugger is active!
+2025-04-10 14:43:01,030 - INFO -  * Debugger PIN: 118-512-172
+2025-04-10 14:43:03,270 - INFO - 127.0.0.1 - - [10/Apr/2025 14:43:03] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-10 14:43:10,915 - INFO - 127.0.0.1 - - [10/Apr/2025 14:43:10] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-10 14:43:32,029 - INFO - 127.0.0.1 - - [10/Apr/2025 14:43:32] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-10 14:43:34,964 - INFO - 127.0.0.1 - - [10/Apr/2025 14:43:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-10 14:43:57,431 - INFO -  * Detected change in 'C:\\Users\\Administrator\\Documents\\MP4 to MP3.GIF\\python.py', reloading
+2025-04-10 14:43:57,944 - WARNING -  * Debugger is active!
+2025-04-10 14:43:57,951 - INFO -  * Debugger PIN: 118-512-172
+2025-04-10 14:44:10,033 - INFO -  * Detected change in 'C:\\Users\\Administrator\\Documents\\MP4 to MP3.GIF\\python.py', reloading
+2025-04-10 14:44:10,540 - WARNING -  * Debugger is active!
+2025-04-10 14:44:10,547 - INFO -  * Debugger PIN: 118-512-172
+2025-04-10 14:44:12,553 - INFO - 127.0.0.1 - - [10/Apr/2025 14:44:12] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-10 14:44:17,012 - INFO - 127.0.0.1 - - [10/Apr/2025 14:44:17] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-10 14:44:47,816 - INFO -  * Detected change in 'C:\\Users\\Administrator\\Documents\\MP4 to MP3.GIF\\python.py', reloading
+2025-04-10 14:44:48,295 - WARNING -  * Debugger is active!
+2025-04-10 14:44:48,302 - INFO -  * Debugger PIN: 118-512-172
+2025-04-10 14:44:48,978 - INFO - 127.0.0.1 - - [10/Apr/2025 14:44:48] "GET / HTTP/1.1" 200 -
+2025-04-10 14:45:01,627 - INFO - 127.0.0.1 - - [10/Apr/2025 14:45:01] "[35m[1mPOST /convert HTTP/1.1[0m" 500 -
+2025-04-10 14:47:57,655 - INFO - 127.0.0.1 - - [10/Apr/2025 14:47:57] "GET / HTTP/1.1" 200 -
+2025-04-10 14:48:06,339 - INFO - 127.0.0.1 - - [10/Apr/2025 14:48:06] "[35m[1mPOST /convert HTTP/1.1[0m" 500 -
+2025-04-10 14:56:34,059 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-10 14:56:34,060 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 14:56:34,062 - INFO -  * Restarting with stat
+2025-04-10 14:56:34,453 - WARNING -  * Debugger is active!
+2025-04-10 14:56:34,488 - INFO -  * Debugger PIN: 118-512-172
+2025-04-10 14:57:25,599 - INFO - 127.0.0.1 - - [10/Apr/2025 14:57:25] "GET / HTTP/1.1" 200 -
+2025-04-10 14:57:30,765 - INFO - 127.0.0.1 - - [10/Apr/2025 14:57:30] "[35m[1mPOST /convert HTTP/1.1[0m" 500 -
+2025-04-10 14:59:41,445 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-10 14:59:41,445 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 14:59:41,448 - INFO -  * Restarting with stat
+2025-04-10 14:59:42,060 - WARNING -  * Debugger is active!
+2025-04-10 14:59:42,082 - INFO -  * Debugger PIN: 118-512-172
+2025-04-10 14:59:43,109 - INFO -  * Detected change in 'C:\\Users\\Administrator\\Documents\\MP4 to MP3.GIF\\python.py', reloading
+2025-04-10 14:59:43,159 - INFO -  * Restarting with stat
+2025-04-10 14:59:43,829 - WARNING -  * Debugger is active!
+2025-04-10 14:59:43,838 - INFO -  * Debugger PIN: 118-512-172
+2025-04-10 14:59:45,335 - INFO - 127.0.0.1 - - [10/Apr/2025 14:59:45] "GET / HTTP/1.1" 200 -
+2025-04-10 14:59:49,475 - ERROR - FAILED: ezgif-86daf7a9d71394.mp4 \u279c 8d7c05e1-fada-425e-97ba-84ca60603f90.mp3 | Command '['ffmpeg', '-i', 'uploads\\8d7c05e1-fada-425e-97ba-84ca60603f90.mp4', '-q:a', '0', '-map', 'a', 'uploads\\8d7c05e1-fada-425e-97ba-84ca60603f90.mp3']' returned non-zero exit status 4294967274.
+2025-04-10 14:59:49,476 - INFO - 127.0.0.1 - - [10/Apr/2025 14:59:49] "[35m[1mPOST /convert HTTP/1.1[0m" 500 -
+2025-04-10 15:00:55,707 - INFO -  * Detected change in 'C:\\Users\\Administrator\\Documents\\MP4 to MP3.GIF\\python.py', reloading
+2025-04-10 15:00:55,764 - INFO -  * Restarting with stat
+2025-04-10 15:00:56,254 - WARNING -  * Debugger is active!
+2025-04-10 15:00:56,261 - INFO -  * Debugger PIN: 118-512-172
+2025-04-10 15:01:00,178 - INFO - 127.0.0.1 - - [10/Apr/2025 15:01:00] "GET / HTTP/1.1" 200 -
+2025-04-10 15:01:05,408 - ERROR - FAILED: ezgif-86daf7a9d71394.mp4 \u279c 16f61864-0df5-49f2-a71b-7f9ffe4b7eb2.mp3 | Command '['ffmpeg', '-i', 'uploads\\16f61864-0df5-49f2-a71b-7f9ffe4b7eb2.mp4', '-q:a', '0', 'uploads\\16f61864-0df5-49f2-a71b-7f9ffe4b7eb2.mp3']' returned non-zero exit status 4294967274.
+2025-04-10 15:01:05,408 - INFO - 127.0.0.1 - - [10/Apr/2025 15:01:05] "[35m[1mPOST /convert HTTP/1.1[0m" 500 -
+2025-04-10 15:01:39,304 - INFO - SUCCESS: ezgif-86daf7a9d71394.mp4 \u279c a407ff52-ffad-4ade-a256-64c69f8f845e.gif
+2025-04-10 15:01:39,419 - INFO - 127.0.0.1 - - [10/Apr/2025 15:01:39] "POST /convert HTTP/1.1" 200 -
+2025-04-10 15:02:55,206 - INFO - 127.0.0.1 - - [10/Apr/2025 15:02:55] "GET / HTTP/1.1" 200 -
+2025-04-10 15:03:04,249 - INFO - SUCCESS: ezgif-86daf7a9d71394.mp4 \u279c edde8744-bf45-434a-b606-dd739e51b597.gif
+2025-04-10 15:03:04,250 - INFO - 127.0.0.1 - - [10/Apr/2025 15:03:04] "POST /convert HTTP/1.1" 200 -
+2025-04-10 15:04:39,276 - INFO - 127.0.0.1 - - [10/Apr/2025 15:04:39] "GET / HTTP/1.1" 200 -
+2025-04-10 15:06:17,351 - INFO - 127.0.0.1 - - [10/Apr/2025 15:06:17] "GET / HTTP/1.1" 200 -
+2025-04-10 15:07:17,900 - INFO - 127.0.0.1 - - [10/Apr/2025 15:07:17] "GET / HTTP/1.1" 200 -
+2025-04-10 15:07:29,525 - INFO - 127.0.0.1 - - [10/Apr/2025 15:07:29] "GET / HTTP/1.1" 200 -
+2025-04-10 15:07:48,405 - INFO - 127.0.0.1 - - [10/Apr/2025 15:07:48] "GET / HTTP/1.1" 200 -
+2025-04-10 15:08:00,402 - INFO - 127.0.0.1 - - [10/Apr/2025 15:08:00] "GET / HTTP/1.1" 200 -
+2025-04-10 15:08:33,221 - INFO - 127.0.0.1 - - [10/Apr/2025 15:08:33] "GET / HTTP/1.1" 200 -
+2025-04-10 15:09:22,283 - INFO - 127.0.0.1 - - [10/Apr/2025 15:09:22] "GET / HTTP/1.1" 200 -
+2025-04-10 15:10:46,545 - INFO - 127.0.0.1 - - [10/Apr/2025 15:10:46] "GET / HTTP/1.1" 200 -
+2025-04-10 15:10:58,372 - INFO - 127.0.0.1 - - [10/Apr/2025 15:10:58] "GET / HTTP/1.1" 200 -
+2025-04-10 15:11:14,899 - INFO - 127.0.0.1 - - [10/Apr/2025 15:11:14] "GET / HTTP/1.1" 200 -
+2025-04-10 15:11:47,411 - INFO - 127.0.0.1 - - [10/Apr/2025 15:11:47] "GET / HTTP/1.1" 200 -
+2025-04-10 15:12:01,635 - INFO - 127.0.0.1 - - [10/Apr/2025 15:12:01] "GET / HTTP/1.1" 200 -
+2025-04-10 15:12:17,059 - INFO - 127.0.0.1 - - [10/Apr/2025 15:12:17] "GET / HTTP/1.1" 200 -
+2025-04-10 15:12:51,909 - INFO - 127.0.0.1 - - [10/Apr/2025 15:12:51] "GET / HTTP/1.1" 200 -
+2025-04-10 15:13:05,550 - INFO - 127.0.0.1 - - [10/Apr/2025 15:13:05] "GET / HTTP/1.1" 200 -
+2025-04-10 15:13:41,370 - INFO - 127.0.0.1 - - [10/Apr/2025 15:13:41] "GET / HTTP/1.1" 200 -
+2025-04-10 15:15:58,468 - INFO - 127.0.0.1 - - [10/Apr/2025 15:15:58] "GET / HTTP/1.1" 200 -
+2025-04-10 15:15:58,496 - INFO - 127.0.0.1 - - [10/Apr/2025 15:15:58] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-04-10 15:15:58,501 - INFO - 127.0.0.1 - - [10/Apr/2025 15:15:58] "[33mGET /script.js HTTP/1.1[0m" 404 -
+2025-04-10 15:16:41,552 - INFO -  * Detected change in 'C:\\Users\\Administrator\\Documents\\MP4 to MP3.GIF\\python.py', reloading
+2025-04-10 15:16:41,840 - INFO -  * Restarting with stat
+2025-04-10 15:16:42,600 - WARNING -  * Debugger is active!
+2025-04-10 15:16:42,609 - INFO -  * Debugger PIN: 118-512-172
+2025-04-10 15:20:38,174 - INFO - 127.0.0.1 - - [10/Apr/2025 15:20:38] "GET / HTTP/1.1" 200 -
+2025-04-10 15:20:38,314 - INFO - 127.0.0.1 - - [10/Apr/2025 15:20:38] "GET /static/script.js HTTP/1.1" 200 -
+2025-04-10 15:20:38,315 - INFO - 127.0.0.1 - - [10/Apr/2025 15:20:38] "GET /static/styles.css HTTP/1.1" 200 -
+2025-04-10 15:20:44,127 - INFO - SUCCESS: ezgif-86daf7a9d71394.mp4 \u279c e07c0209-78d8-4266-b2aa-bc89f26daa9b.gif
+2025-04-10 15:20:44,132 - INFO - 127.0.0.1 - - [10/Apr/2025 15:20:44] "POST /convert HTTP/1.1" 200 -
+2025-04-10 17:53:38,041 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-10 17:53:38,041 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 17:53:38,052 - INFO -  * Restarting with stat
+2025-04-10 17:53:38,505 - WARNING -  * Debugger is active!
+2025-04-10 17:53:38,530 - INFO -  * Debugger PIN: 118-512-172
+2025-04-10 17:53:44,272 - INFO - 127.0.0.1 - - [10/Apr/2025 17:53:44] "GET / HTTP/1.1" 200 -
+2025-04-10 17:53:44,424 - INFO - 127.0.0.1 - - [10/Apr/2025 17:53:44] "GET /static/script.js HTTP/1.1" 200 -
+2025-04-10 17:53:44,425 - INFO - 127.0.0.1 - - [10/Apr/2025 17:53:44] "GET /static/styles.css HTTP/1.1" 200 -
+2025-04-10 17:53:46,088 - INFO - 127.0.0.1 - - [10/Apr/2025 17:53:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-10 17:54:39,047 - INFO -  * Detected change in 'C:\\Users\\Administrator\\Documents\\MP4 to MP3.GIF\\python.py', reloading
+2025-04-10 17:54:39,342 - INFO -  * Restarting with stat
+2025-04-10 17:54:39,868 - WARNING -  * Debugger is active!
+2025-04-10 17:54:39,874 - INFO -  * Debugger PIN: 118-512-172
+2025-04-10 17:54:48,685 - INFO - 127.0.0.1 - - [10/Apr/2025 17:54:48] "GET / HTTP/1.1" 200 -
+2025-04-10 17:54:48,815 - INFO - 127.0.0.1 - - [10/Apr/2025 17:54:48] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-10 17:54:48,822 - INFO - 127.0.0.1 - - [10/Apr/2025 17:54:48] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-10 17:56:17,687 - INFO -  * Detected change in 'C:\\Users\\Administrator\\Documents\\MP4 to MP3.GIF\\python.py', reloading
+2025-04-10 17:56:17,795 - INFO -  * Restarting with stat
+2025-04-10 17:56:18,575 - WARNING -  * Debugger is active!
+2025-04-10 17:56:18,582 - INFO -  * Debugger PIN: 118-512-172
+2025-04-10 17:56:30,667 - INFO - 127.0.0.1 - - [10/Apr/2025 17:56:30] "GET / HTTP/1.1" 200 -
+2025-04-10 17:56:30,800 - INFO - 127.0.0.1 - - [10/Apr/2025 17:56:30] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-10 17:56:30,805 - INFO - 127.0.0.1 - - [10/Apr/2025 17:56:30] "GET /static/script.js HTTP/1.1" 200 -
+2025-04-10 18:00:25,604 - INFO - 127.0.0.1 - - [10/Apr/2025 18:00:25] "GET / HTTP/1.1" 200 -
+2025-04-10 18:00:25,637 - INFO - 127.0.0.1 - - [10/Apr/2025 18:00:25] "GET /static/styles.css HTTP/1.1" 200 -
+2025-04-10 18:00:25,637 - INFO - 127.0.0.1 - - [10/Apr/2025 18:00:25] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-10 18:02:13,369 - INFO - 127.0.0.1 - - [10/Apr/2025 18:02:13] "GET / HTTP/1.1" 200 -
+2025-04-10 18:02:13,402 - INFO - 127.0.0.1 - - [10/Apr/2025 18:02:13] "GET /static/styles.css HTTP/1.1" 200 -
+2025-04-10 18:02:13,403 - INFO - 127.0.0.1 - - [10/Apr/2025 18:02:13] "GET /static/script.js HTTP/1.1" 200 -
+2025-04-10 18:02:34,234 - INFO - 127.0.0.1 - - [10/Apr/2025 18:02:34] "GET / HTTP/1.1" 200 -
+2025-04-10 18:02:34,267 - INFO - 127.0.0.1 - - [10/Apr/2025 18:02:34] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-10 18:02:34,268 - INFO - 127.0.0.1 - - [10/Apr/2025 18:02:34] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-10 18:03:45,138 - INFO - 127.0.0.1 - - [10/Apr/2025 18:03:45] "GET / HTTP/1.1" 200 -
+2025-04-10 18:03:45,177 - INFO - 127.0.0.1 - - [10/Apr/2025 18:03:45] "GET /static/styles.css HTTP/1.1" 200 -
+2025-04-10 18:03:45,178 - INFO - 127.0.0.1 - - [10/Apr/2025 18:03:45] "GET /static/script.js HTTP/1.1" 200 -
+2025-04-10 18:03:56,907 - INFO - 127.0.0.1 - - [10/Apr/2025 18:03:56] "GET / HTTP/1.1" 200 -
+2025-04-10 18:03:56,936 - INFO - 127.0.0.1 - - [10/Apr/2025 18:03:56] "GET /static/styles.css HTTP/1.1" 200 -
+2025-04-10 18:03:56,939 - INFO - 127.0.0.1 - - [10/Apr/2025 18:03:56] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-10 18:04:05,250 - INFO - 127.0.0.1 - - [10/Apr/2025 18:04:05] "GET / HTTP/1.1" 200 -
+2025-04-10 18:04:05,280 - INFO - 127.0.0.1 - - [10/Apr/2025 18:04:05] "GET /static/styles.css HTTP/1.1" 200 -
+2025-04-10 18:04:05,281 - INFO - 127.0.0.1 - - [10/Apr/2025 18:04:05] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-10 18:04:46,491 - INFO - 127.0.0.1 - - [10/Apr/2025 18:04:46] "GET / HTTP/1.1" 200 -
+2025-04-10 18:04:46,524 - INFO - 127.0.0.1 - - [10/Apr/2025 18:04:46] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-10 18:04:46,524 - INFO - 127.0.0.1 - - [10/Apr/2025 18:04:46] "GET /static/styles.css HTTP/1.1" 200 -
+2025-04-10 18:04:56,917 - INFO - 127.0.0.1 - - [10/Apr/2025 18:04:56] "GET / HTTP/1.1" 200 -
+2025-04-10 18:04:56,952 - INFO - 127.0.0.1 - - [10/Apr/2025 18:04:56] "GET /static/styles.css HTTP/1.1" 200 -
+2025-04-10 18:04:56,952 - INFO - 127.0.0.1 - - [10/Apr/2025 18:04:56] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-10 18:05:14,411 - INFO - 127.0.0.1 - - [10/Apr/2025 18:05:14] "GET / HTTP/1.1" 200 -
+2025-04-10 18:05:14,443 - INFO - 127.0.0.1 - - [10/Apr/2025 18:05:14] "GET /static/styles.css HTTP/1.1" 200 -
+2025-04-10 18:05:14,444 - INFO - 127.0.0.1 - - [10/Apr/2025 18:05:14] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-10 18:05:24,051 - INFO - 127.0.0.1 - - [10/Apr/2025 18:05:24] "GET / HTTP/1.1" 200 -
+2025-04-10 18:05:24,081 - INFO - 127.0.0.1 - - [10/Apr/2025 18:05:24] "GET /static/styles.css HTTP/1.1" 200 -
+2025-04-10 18:05:24,089 - INFO - 127.0.0.1 - - [10/Apr/2025 18:05:24] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-10 18:05:31,195 - INFO - 127.0.0.1 - - [10/Apr/2025 18:05:31] "GET / HTTP/1.1" 200 -
+2025-04-10 18:05:31,223 - INFO - 127.0.0.1 - - [10/Apr/2025 18:05:31] "GET /static/styles.css HTTP/1.1" 200 -
+2025-04-10 18:05:31,229 - INFO - 127.0.0.1 - - [10/Apr/2025 18:05:31] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-10 18:06:07,112 - INFO - 127.0.0.1 - - [10/Apr/2025 18:06:07] "GET / HTTP/1.1" 200 -
+2025-04-10 18:06:07,142 - INFO - 127.0.0.1 - - [10/Apr/2025 18:06:07] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-10 18:06:07,142 - INFO - 127.0.0.1 - - [10/Apr/2025 18:06:07] "GET /static/styles.css HTTP/1.1" 200 -
+2025-04-10 18:06:28,843 - INFO - 127.0.0.1 - - [10/Apr/2025 18:06:28] "GET / HTTP/1.1" 200 -
+2025-04-10 18:06:28,878 - INFO - 127.0.0.1 - - [10/Apr/2025 18:06:28] "GET /static/styles.css HTTP/1.1" 200 -
+2025-04-10 18:06:28,881 - INFO - 127.0.0.1 - - [10/Apr/2025 18:06:28] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-10 18:07:01,480 - INFO - 127.0.0.1 - - [10/Apr/2025 18:07:01] "GET / HTTP/1.1" 200 -
+2025-04-10 18:07:01,511 - INFO - 127.0.0.1 - - [10/Apr/2025 18:07:01] "GET /static/styles.css HTTP/1.1" 200 -
+2025-04-10 18:07:01,512 - INFO - 127.0.0.1 - - [10/Apr/2025 18:07:01] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-10 18:07:08,091 - INFO - 127.0.0.1 - - [10/Apr/2025 18:07:08] "GET / HTTP/1.1" 200 -
+2025-04-10 18:07:08,123 - INFO - 127.0.0.1 - - [10/Apr/2025 18:07:08] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-10 18:07:08,123 - INFO - 127.0.0.1 - - [10/Apr/2025 18:07:08] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-10 18:07:19,363 - INFO - 127.0.0.1 - - [10/Apr/2025 18:07:19] "GET / HTTP/1.1" 200 -
+2025-04-10 18:07:19,395 - INFO - 127.0.0.1 - - [10/Apr/2025 18:07:19] "GET /static/styles.css HTTP/1.1" 200 -
+2025-04-10 18:07:19,396 - INFO - 127.0.0.1 - - [10/Apr/2025 18:07:19] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-10 18:07:56,642 - INFO - 127.0.0.1 - - [10/Apr/2025 18:07:56] "GET / HTTP/1.1" 200 -
+2025-04-10 18:07:56,677 - INFO - 127.0.0.1 - - [10/Apr/2025 18:07:56] "GET /static/styles.css HTTP/1.1" 200 -
+2025-04-10 18:07:56,678 - INFO - 127.0.0.1 - - [10/Apr/2025 18:07:56] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-10 18:09:11,128 - INFO - 127.0.0.1 - - [10/Apr/2025 18:09:11] "GET / HTTP/1.1" 200 -
+2025-04-10 18:09:11,154 - INFO - 127.0.0.1 - - [10/Apr/2025 18:09:11] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-10 18:09:11,155 - INFO - 127.0.0.1 - - [10/Apr/2025 18:09:11] "GET /static/script.js HTTP/1.1" 200 -
+2025-04-10 18:09:34,233 - INFO - 127.0.0.1 - - [10/Apr/2025 18:09:34] "GET / HTTP/1.1" 200 -
+2025-04-10 18:09:34,268 - INFO - 127.0.0.1 - - [10/Apr/2025 18:09:34] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-10 18:09:34,270 - INFO - 127.0.0.1 - - [10/Apr/2025 18:09:34] "GET /static/script.js HTTP/1.1" 200 -
+2025-04-10 18:10:53,738 - INFO - 127.0.0.1 - - [10/Apr/2025 18:10:53] "GET / HTTP/1.1" 200 -
+2025-04-10 18:10:53,770 - INFO - 127.0.0.1 - - [10/Apr/2025 18:10:53] "GET /static/styles.css HTTP/1.1" 200 -
+2025-04-10 18:10:53,771 - INFO - 127.0.0.1 - - [10/Apr/2025 18:10:53] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-10 18:12:16,800 - INFO - 127.0.0.1 - - [10/Apr/2025 18:12:16] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-10 18:12:25,733 - INFO - 127.0.0.1 - - [10/Apr/2025 18:12:25] "GET / HTTP/1.1" 200 -
+2025-04-10 18:12:25,781 - INFO - 127.0.0.1 - - [10/Apr/2025 18:12:25] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-10 18:12:25,782 - INFO - 127.0.0.1 - - [10/Apr/2025 18:12:25] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-10 18:15:23,728 - INFO - 127.0.0.1 - - [10/Apr/2025 18:15:23] "GET / HTTP/1.1" 200 -
+2025-04-10 18:15:23,768 - INFO - 127.0.0.1 - - [10/Apr/2025 18:15:23] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-10 18:15:23,769 - INFO - 127.0.0.1 - - [10/Apr/2025 18:15:23] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-10 18:16:41,917 - INFO - 127.0.0.1 - - [10/Apr/2025 18:16:41] "GET / HTTP/1.1" 200 -
+2025-04-10 18:16:41,958 - INFO - 127.0.0.1 - - [10/Apr/2025 18:16:41] "GET /static/styles.css HTTP/1.1" 200 -
+2025-04-10 18:16:41,959 - INFO - 127.0.0.1 - - [10/Apr/2025 18:16:41] "GET /static/script.js HTTP/1.1" 200 -
+2025-04-10 18:17:20,716 - INFO - 127.0.0.1 - - [10/Apr/2025 18:17:20] "GET / HTTP/1.1" 200 -
+2025-04-10 18:17:20,748 - INFO - 127.0.0.1 - - [10/Apr/2025 18:17:20] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-10 18:17:20,748 - INFO - 127.0.0.1 - - [10/Apr/2025 18:17:20] "GET /static/styles.css HTTP/1.1" 200 -
+2025-04-10 18:17:33,148 - INFO - 127.0.0.1 - - [10/Apr/2025 18:17:33] "GET / HTTP/1.1" 200 -
+2025-04-10 18:17:33,181 - INFO - 127.0.0.1 - - [10/Apr/2025 18:17:33] "GET /static/styles.css HTTP/1.1" 200 -
+2025-04-10 18:17:33,182 - INFO - 127.0.0.1 - - [10/Apr/2025 18:17:33] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-10 18:17:49,567 - INFO - 127.0.0.1 - - [10/Apr/2025 18:17:49] "GET / HTTP/1.1" 200 -
+2025-04-10 18:17:49,599 - INFO - 127.0.0.1 - - [10/Apr/2025 18:17:49] "GET /static/styles.css HTTP/1.1" 200 -
+2025-04-10 18:17:49,605 - INFO - 127.0.0.1 - - [10/Apr/2025 18:17:49] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-10 18:17:57,598 - INFO - 127.0.0.1 - - [10/Apr/2025 18:17:57] "GET / HTTP/1.1" 200 -
+2025-04-10 18:17:57,630 - INFO - 127.0.0.1 - - [10/Apr/2025 18:17:57] "GET /static/styles.css HTTP/1.1" 200 -
+2025-04-10 18:17:57,631 - INFO - 127.0.0.1 - - [10/Apr/2025 18:17:57] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-10 18:18:16,489 - INFO - 127.0.0.1 - - [10/Apr/2025 18:18:16] "GET / HTTP/1.1" 200 -
+2025-04-10 18:18:16,520 - INFO - 127.0.0.1 - - [10/Apr/2025 18:18:16] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-10 18:18:16,521 - INFO - 127.0.0.1 - - [10/Apr/2025 18:18:16] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-10 18:19:26,492 - INFO - 127.0.0.1 - - [10/Apr/2025 18:19:26] "GET / HTTP/1.1" 200 -
+2025-04-10 18:19:26,521 - INFO - 127.0.0.1 - - [10/Apr/2025 18:19:26] "GET /static/script.js HTTP/1.1" 200 -
+2025-04-10 18:19:26,521 - INFO - 127.0.0.1 - - [10/Apr/2025 18:19:26] "GET /static/styles.css HTTP/1.1" 200 -
+2025-04-10 18:21:11,536 - INFO -  * Detected change in 'C:\\Users\\Administrator\\Documents\\MP4 to MP3.GIF\\python.py', reloading
+2025-04-10 18:21:11,612 - INFO -  * Restarting with stat
+2025-04-10 18:21:12,335 - WARNING -  * Debugger is active!
+2025-04-10 18:21:12,343 - INFO -  * Debugger PIN: 118-512-172
+2025-04-10 18:21:13,234 - INFO - 127.0.0.1 - - [10/Apr/2025 18:21:13] "GET / HTTP/1.1" 200 -
+2025-04-10 18:21:13,378 - INFO - 127.0.0.1 - - [10/Apr/2025 18:21:13] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-10 18:21:13,379 - INFO - 127.0.0.1 - - [10/Apr/2025 18:21:13] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-10 18:21:26,657 - INFO - 127.0.0.1 - - [10/Apr/2025 18:21:26] "[31m[1mPOST /convert HTTP/1.1[0m" 400 -
+2025-04-10 18:21:34,070 - INFO - SUCCESS: a7098d7a4b4566d0a60504daeecb5a10.gif \u279c 365bc90f-1d61-4ddf-a246-4d7e0f43e685.mp4
+2025-04-10 18:21:34,073 - INFO - 127.0.0.1 - - [10/Apr/2025 18:21:34] "POST /convert HTTP/1.1" 200 -

@@ -1,0 +1,237 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #1e1e1e;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin: 0 auto;
+  overflow: hidden ;
+  position: relative;
+  min-height: 100vh;
+}
+
+h1 {
+  color: #c678dd;
+  margin-bottom: 15px;
+  font-size: 2em;
+  animation: fadeIn 1s ease-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  background-color: #3e4451;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  margin-bottom: 15px;
+  display: inline-block;
+  animation: slideIn 0.8s ease-out;
+  width: 100%;
+  max-width: 500px;
+}
+
+input[type="file"], select, button {
+  margin: 12px 0;
+  padding: 12px 16px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  background-color: #5c6370;
+  color: #d19a66;
+  width: 100%;
+  box-sizing: border-box;
+  transition: background-color 0.3s ease;
+}
+
+input[type="file"]::file-selector-button {
+  background-color: #fa7020;
+  color: #000000;
+  border: none;
+  padding: 12px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="file"]::file-selector-button:hover {
+  background-color: #e4e67f;
+}
+
+input[type="file"]:hover, select:hover {
+  background-color: #6b7280;
+}
+
+button {
+  cursor: pointer;
+  background-color: #61afef;
+  color: #282c34;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  padding: 12px 16px;
+}
+
+button:hover {
+  background-color: #519eda;
+}
+
+#progress {
+  width: 70%;
+  max-width: 400px;
+  height: 10px;
+  background: #3e4451;
+  margin: 15px auto;
+  border-radius: 5px;
+  overflow: hidden;
+  display: none;
+}
+
+#progress-bar {
+  height: 100%;
+  width: 0%;
+  background: #98c379;
+  transition: width 0.4s ease-out;
+}
+
+#message {
+  margin-top: 15px;
+  font-size: 16px;
+  color: #e06c75;
+  display: none;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+#history {
+  margin-top: 20px;
+  text-align: left;
+  width: 70%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  animation: slideIn 0.8s ease-out;
+}
+
+.history-item {
+  margin: 8px 0;
+  color: #abb2bf;
+  font-size: 14px;
+  list-style: none;
+  opacity: 0;
+  animation: fadeInUp 0.5s ease-out forwards;
+  animation-delay: calc(0.1s * var(--index));
+}
+
+.history-item a {
+  color: #61afef;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  border-radius: 6px;
+  background-color: #3e4451;
+  transition: background-color 0.3s ease;
+}
+
+.history-item a:hover {
+  background-color: #5c6370;
+  text-decoration: none;
+}
+
+.clear-history {
+  margin-top: 15px;
+  padding: 10px 16px;
+  font-size: 14px;
+  background-color: #e06c75;
+  color: #282c34;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.clear-history:hover {
+  background-color: #d45e67;
+}
+
+#error-popup {
+  display: none;
+  position: fixed;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #e06c75;
+  color: #282c34;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+  animation: fadeIn 0.4s ease-out;
+}
+
+#error-popup button {
+  background-color: #fff;
+  color: #e06c75;
+  border: none;
+  padding: 8px 14px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+#error-popup button:hover {
+  background-color: #f0f0f0;
+}
+
+footer {
+  margin-top: auto;
+  padding: 15px;
+  text-align: center;
+  color: #6b7280;
+  font-size: 12px;
+  opacity: 0;
+  animation: fadeInUp 0.7s ease-out forwards;
+  animation-delay: 0.3s;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideIn {
+  from { transform: translateY(-30px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes fadeInUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  body {
+      padding: 15px;
+  }
+
+  form {
+      width: 95%;
+      margin: 0 auto 15px;
+  }
+
+  input[type="file"], select, button {
+      width: 100%;
+      padding: 12px 16px;
+  }
+
+  #progress {
+      width: 90%;
+  }
+
+  #history {
+      width: 90%;
+  }
+}
